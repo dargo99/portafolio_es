@@ -89,7 +89,7 @@ h2 {
     width: 407px;
     font-weight: 500;
     color: #ffffff;
-    letter-spacing: 19px;
+    letter-spacing: 17px;
     margin-left: 8px;
     margin-top: -8px;
     text-transform: uppercase;
@@ -187,7 +187,7 @@ h2 {
 }
 
 #profile .me a div h3 {
-    font-size: 35px;
+    font-size: 42px;
     color: #fff;
     opacity: 0;
     animation: appearbottom 1s forwards 2.5s;
@@ -195,7 +195,7 @@ h2 {
 
 #profile > .me a div p {
     color: #fff;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: 500;
     opacity: 0;
     animation: appearbottom 1s forwards 3s;
@@ -520,7 +520,7 @@ h2 {
 }
 
 .beforeux::after {
-    content: "Before UX/UI";
+    content: "Antes de UX/UI";
     position: absolute;
     top: 0;
     left: 0;
@@ -540,7 +540,7 @@ h2 {
 }
 
 .afterux::after {
-    content: "After UX/UI";
+    content: "Después de UX/UI";
     position: absolute;
     top: 0;
     left: 0;
@@ -601,7 +601,7 @@ h2 {
 }
 
 #end h1 {
-    line-height: 26px;
+    line-height: 36px;
     letter-spacing: 15px;
     margin-top: -23vh !important;
     color: #BFCFE8 !important;
@@ -609,29 +609,27 @@ h2 {
     font-size: 30px !important;
     text-align: center !important;
     transform: scale(1.5, 1.5);
-    mix-blend-mode: color-dodge;
 }
 
 #end h1 > span {
-    position: relative;
+    color: #fff;
 }
 
 #end h1 > span:first-child {
-    letter-spacing: 57px;
+    letter-spacing: 7px;
     left: 21px;
     font-size: 18px;
 }
 
 #end h1 > span:nth-child(2) {
-    color: #c6b992 !important;
     font-weight: 700;
     font-size: 70px;
-    letter-spacing: 13px;
+    letter-spacing: 0;
     bottom: -12px
 }
 
 #end h1 > span:nth-child(3) {
-    letter-spacing: 20px;
+    letter-spacing: 4px;
     left: 5px;
     bottom: -25px;
     font-size: 18px;
@@ -644,7 +642,6 @@ h2 {
 }
 
 #end h1 > span:last-child {
-    color: #DC4B58 !important;
     font-weight: 700;
     font-size: 63px;
     letter-spacing: 0;
