@@ -666,7 +666,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(circle, #0d1520 0%, #0d152000 45%);
+    background: radial-gradient(circle, #0d1520be 0%, #0d152000 45%);
 }
 
 #end a:last-child:hover > div {
