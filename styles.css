@@ -601,52 +601,52 @@ h2 {
 }
 
 #end h1 {
-    line-height: 36px;
+    line-height: 26px;
     letter-spacing: 15px;
     margin-top: -23vh !important;
-    color: #BFCFE8 !important;
+    color: #fff !important;
     font-weight: 500 !important;
     font-size: 30px !important;
     text-align: center !important;
     transform: scale(1.5, 1.5);
+    mix-blend-mode: color-dodge;
 }
 
 #end h1 > span {
-    color: #fff;
+    position: relative;
 }
 
 #end h1 > span:first-child {
-    letter-spacing: 7px;
+    letter-spacing: 37px;
     left: 21px;
-    font-size: 18px;
+    font-size: 25px;
+    font-weight: 700;
 }
 
 #end h1 > span:nth-child(2) {
+    color: #c6b992 !important;
     font-weight: 700;
     font-size: 70px;
-    letter-spacing: 0;
-    bottom: -12px
+    letter-spacing: -4px;
+    bottom: -20px
 }
 
 #end h1 > span:nth-child(3) {
-    letter-spacing: 4px;
-    left: 5px;
-    bottom: -25px;
-    font-size: 18px;
-    background-color: #000000b6;
-    mix-blend-mode: darken;
-    display: inline;
-    backdrop-filter: blur( 5.5px );
-    border-radius: 3px;
+    letter-spacing: 20px;
+    left: 12px;
+    bottom: -33px;
+    font-size: 25px;
     color: #ffffff;
+    font-weight: 700;
 }
 
 #end h1 > span:last-child {
+    color: #DC4B58 !important;
     font-weight: 700;
     font-size: 63px;
-    letter-spacing: 0;
-    top: 35px;
-    left: -5px;
+    letter-spacing: 8px;
+    top: 45px;
+    left: 7px;
 }
 
 #end span {
@@ -677,8 +677,8 @@ h2 {
 }
 
 #end a:last-child:hover > span {
-    font-weight: 400;
-    color: #DC4B58;
+    font-weight: 700;
+    color: #fff;
     cursor: none;
 }
 
