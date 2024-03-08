@@ -302,6 +302,10 @@ h2 {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
+.design {
+    margin: 0 !important;
+}
+
 @media screen and (max-width: 1600px) {
     .nav + .progress-bar {
         transform: rotate(-90deg) translateX(70%);
