@@ -414,6 +414,10 @@ margin: 40px -48px;
         width: 250px;
     }
 
+    .contact {
+        margin: auto;
+    }
+
     #portafolio p {
         display: block !important;
         left: 0% !important;
