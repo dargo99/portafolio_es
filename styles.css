@@ -801,16 +801,16 @@ margin: 40px -48px;
 
 @media screen and (max-width: 526px) {
 
+    #portafolio {
+        margin-top: 57vh
+    }
+
     #portafolio p, .moveable {
         width: 288px;
     }
 }
 
 @media screen and (max-width: 512px) {
-
-    #portafolio {
-        margin-top: 80vh
-    }
 
     .ludifica > div > div, .moreexperiences > div {
         min-width: fit-content;
@@ -866,6 +866,22 @@ margin: 40px -48px;
         min-width: 300px;
         min-height: 300px;
     }
+}
+
+@media screen and (max-width: 450px) {
+
+    #portafolio {
+        margin-top: 65vh
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+
+    #portafolio {
+        margin-top: 80vh
+    }
+
 }
 
 .crm > div > div:nth-child(1) video {
