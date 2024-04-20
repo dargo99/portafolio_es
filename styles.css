@@ -402,6 +402,15 @@ margin: 40px -48px;
     #portafolio {
         margin-top: 34%;
     }
+
+    #profile {
+        margin-top: -40px !important;
+    }
+
+    .lang a {
+        padding: 5px !important;
+        margin-top: 5px !important;
+    }
 }
 
 
@@ -948,15 +957,6 @@ margin: 40px -48px;
 
     #portafolio .info {
         text-align: center;
-    }
-    
-    .lang a {
-        padding: 5px !important;
-        margin-top: 5px !important;
-    }
-
-    #profile {
-        margin-top: -40px !important;
     }
 }
 
